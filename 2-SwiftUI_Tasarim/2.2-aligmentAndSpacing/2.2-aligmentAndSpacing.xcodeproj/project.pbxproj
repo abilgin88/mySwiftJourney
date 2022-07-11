@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		855E1C21287B397500062BAA /* __2_aligmentAndSpacingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 855E1C20287B397500062BAA /* __2_aligmentAndSpacingApp.swift */; };
+		855E1C23287B397500062BAA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 855E1C22287B397500062BAA /* ContentView.swift */; };
+		855E1C25287B397600062BAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 855E1C24287B397600062BAA /* Assets.xcassets */; };
+		855E1C28287B397600062BAA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 855E1C27287B397600062BAA /* Preview Assets.xcassets */; };
+		855E1C32287B397700062BAA /* __2_aligmentAndSpacingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 855E1C31287B397700062BAA /* __2_aligmentAndSpacingTests.swift */; };
+		855E1C3C287B397700062BAA /* __2_aligmentAndSpacingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 855E1C3B287B397700062BAA /* __2_aligmentAndSpacingUITests.swift */; };
+		855E1C3E287B397700062BAA /* __2_aligmentAndSpacingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 855E1C3D287B397700062BAA /* __2_aligmentAndSpacingUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		855E1C2E287B397700062BAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 855E1C15287B397500062BAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 855E1C1C287B397500062BAA;
+			remoteInfo = "2.2-aligmentAndSpacing";
+		};
+		855E1C38287B397700062BAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 855E1C15287B397500062BAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 855E1C1C287B397500062BAA;
+			remoteInfo = "2.2-aligmentAndSpacing";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		855E1C1D287B397500062BAA /* 2.2-aligmentAndSpacing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "2.2-aligmentAndSpacing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		855E1C20287B397500062BAA /* __2_aligmentAndSpacingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = __2_aligmentAndSpacingApp.swift; sourceTree = "<group>"; };
+		855E1C22287B397500062BAA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		855E1C24287B397600062BAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		855E1C27287B397600062BAA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		855E1C2D287B397700062BAA /* 2.2-aligmentAndSpacingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "2.2-aligmentAndSpacingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		855E1C31287B397700062BAA /* __2_aligmentAndSpacingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = __2_aligmentAndSpacingTests.swift; sourceTree = "<group>"; };
+		855E1C37287B397700062BAA /* 2.2-aligmentAndSpacingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "2.2-aligmentAndSpacingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		855E1C3B287B397700062BAA /* __2_aligmentAndSpacingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = __2_aligmentAndSpacingUITests.swift; sourceTree = "<group>"; };
+		855E1C3D287B397700062BAA /* __2_aligmentAndSpacingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = __2_aligmentAndSpacingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		855E1C1A287B397500062BAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		855E1C2A287B397700062BAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		855E1C34287B397700062BAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		855E1C14287B397500062BAA = {
+			isa = PBXGroup;
+			children = (
+				855E1C1F287B397500062BAA /* 2.2-aligmentAndSpacing */,
+				855E1C30287B397700062BAA /* 2.2-aligmentAndSpacingTests */,
+				855E1C3A287B397700062BAA /* 2.2-aligmentAndSpacingUITests */,
+				855E1C1E287B397500062BAA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		855E1C1E287B397500062BAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				855E1C1D287B397500062BAA /* 2.2-aligmentAndSpacing.app */,
+				855E1C2D287B397700062BAA /* 2.2-aligmentAndSpacingTests.xctest */,
+				855E1C37287B397700062BAA /* 2.2-aligmentAndSpacingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		855E1C1F287B397500062BAA /* 2.2-aligmentAndSpacing */ = {
+			isa = PBXGroup;
+			children = (
+				855E1C20287B397500062BAA /* __2_aligmentAndSpacingApp.swift */,
+				855E1C22287B397500062BAA /* ContentView.swift */,
+				855E1C24287B397600062BAA /* Assets.xcassets */,
+				855E1C26287B397600062BAA /* Preview Content */,
+			);
+			path = "2.2-aligmentAndSpacing";
+			sourceTree = "<group>";
+		};
+		855E1C26287B397600062BAA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				855E1C27287B397600062BAA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		855E1C30287B397700062BAA /* 2.2-aligmentAndSpacingTests */ = {
+			isa = PBXGroup;
+			children = (
+				855E1C31287B397700062BAA /* __2_aligmentAndSpacingTests.swift */,
+			);
+			path = "2.2-aligmentAndSpacingTests";
+			sourceTree = "<group>";
+		};
+		855E1C3A287B397700062BAA /* 2.2-aligmentAndSpacingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				855E1C3B287B397700062BAA /* __2_aligmentAndSpacingUITests.swift */,
+				855E1C3D287B397700062BAA /* __2_aligmentAndSpacingUITestsLaunchTests.swift */,
+			);
+			path = "2.2-aligmentAndSpacingUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		855E1C1C287B397500062BAA /* 2.2-aligmentAndSpacing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 855E1C41287B397700062BAA /* Build configuration list for PBXNativeTarget "2.2-aligmentAndSpacing" */;
+			buildPhases = (
+				855E1C19287B397500062BAA /* Sources */,
+				855E1C1A287B397500062BAA /* Frameworks */,
+				855E1C1B287B397500062BAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "2.2-aligmentAndSpacing";
+			productName = "2.2-aligmentAndSpacing";
+			productReference = 855E1C1D287B397500062BAA /* 2.2-aligmentAndSpacing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		855E1C2C287B397700062BAA /* 2.2-aligmentAndSpacingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 855E1C44287B397700062BAA /* Build configuration list for PBXNativeTarget "2.2-aligmentAndSpacingTests" */;
+			buildPhases = (
+				855E1C29287B397700062BAA /* Sources */,
+				855E1C2A287B397700062BAA /* Frameworks */,
+				855E1C2B287B397700062BAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				855E1C2F287B397700062BAA /* PBXTargetDependency */,
+			);
+			name = "2.2-aligmentAndSpacingTests";
+			productName = "2.2-aligmentAndSpacingTests";
+			productReference = 855E1C2D287B397700062BAA /* 2.2-aligmentAndSpacingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		855E1C36287B397700062BAA /* 2.2-aligmentAndSpacingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 855E1C47287B397700062BAA /* Build configuration list for PBXNativeTarget "2.2-aligmentAndSpacingUITests" */;
+			buildPhases = (
+				855E1C33287B397700062BAA /* Sources */,
+				855E1C34287B397700062BAA /* Frameworks */,
+				855E1C35287B397700062BAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				855E1C39287B397700062BAA /* PBXTargetDependency */,
+			);
+			name = "2.2-aligmentAndSpacingUITests";
+			productName = "2.2-aligmentAndSpacingUITests";
+			productReference = 855E1C37287B397700062BAA /* 2.2-aligmentAndSpacingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		855E1C15287B397500062BAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					855E1C1C287B397500062BAA = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					855E1C2C287B397700062BAA = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 855E1C1C287B397500062BAA;
+					};
+					855E1C36287B397700062BAA = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 855E1C1C287B397500062BAA;
+					};
+				};
+			};
+			buildConfigurationList = 855E1C18287B397500062BAA /* Build configuration list for PBXProject "2.2-aligmentAndSpacing" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 855E1C14287B397500062BAA;
+			productRefGroup = 855E1C1E287B397500062BAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				855E1C1C287B397500062BAA /* 2.2-aligmentAndSpacing */,
+				855E1C2C287B397700062BAA /* 2.2-aligmentAndSpacingTests */,
+				855E1C36287B397700062BAA /* 2.2-aligmentAndSpacingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		855E1C1B287B397500062BAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				855E1C28287B397600062BAA /* Preview Assets.xcassets in Resources */,
+				855E1C25287B397600062BAA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		855E1C2B287B397700062BAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		855E1C35287B397700062BAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		855E1C19287B397500062BAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				855E1C23287B397500062BAA /* ContentView.swift in Sources */,
+				855E1C21287B397500062BAA /* __2_aligmentAndSpacingApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		855E1C29287B397700062BAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				855E1C32287B397700062BAA /* __2_aligmentAndSpacingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		855E1C33287B397700062BAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				855E1C3E287B397700062BAA /* __2_aligmentAndSpacingUITestsLaunchTests.swift in Sources */,
+				855E1C3C287B397700062BAA /* __2_aligmentAndSpacingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		855E1C2F287B397700062BAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 855E1C1C287B397500062BAA /* 2.2-aligmentAndSpacing */;
+			targetProxy = 855E1C2E287B397700062BAA /* PBXContainerItemProxy */;
+		};
+		855E1C39287B397700062BAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 855E1C1C287B397500062BAA /* 2.2-aligmentAndSpacing */;
+			targetProxy = 855E1C38287B397700062BAA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		855E1C3F287B397700062BAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		855E1C40287B397700062BAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		855E1C42287B397700062BAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"2.2-aligmentAndSpacing/Preview Content\"";
+				DEVELOPMENT_TEAM = S3646888C2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bilgin.--2-aligmentAndSpacing";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		855E1C43287B397700062BAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"2.2-aligmentAndSpacing/Preview Content\"";
+				DEVELOPMENT_TEAM = S3646888C2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bilgin.--2-aligmentAndSpacing";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		855E1C45287B397700062BAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S3646888C2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bilgin.--2-aligmentAndSpacingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/2.2-aligmentAndSpacing.app/2.2-aligmentAndSpacing";
+			};
+			name = Debug;
+		};
+		855E1C46287B397700062BAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S3646888C2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bilgin.--2-aligmentAndSpacingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/2.2-aligmentAndSpacing.app/2.2-aligmentAndSpacing";
+			};
+			name = Release;
+		};
+		855E1C48287B397700062BAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S3646888C2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bilgin.--2-aligmentAndSpacingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "2.2-aligmentAndSpacing";
+			};
+			name = Debug;
+		};
+		855E1C49287B397700062BAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S3646888C2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bilgin.--2-aligmentAndSpacingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "2.2-aligmentAndSpacing";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		855E1C18287B397500062BAA /* Build configuration list for PBXProject "2.2-aligmentAndSpacing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				855E1C3F287B397700062BAA /* Debug */,
+				855E1C40287B397700062BAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		855E1C41287B397700062BAA /* Build configuration list for PBXNativeTarget "2.2-aligmentAndSpacing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				855E1C42287B397700062BAA /* Debug */,
+				855E1C43287B397700062BAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		855E1C44287B397700062BAA /* Build configuration list for PBXNativeTarget "2.2-aligmentAndSpacingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				855E1C45287B397700062BAA /* Debug */,
+				855E1C46287B397700062BAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		855E1C47287B397700062BAA /* Build configuration list for PBXNativeTarget "2.2-aligmentAndSpacingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				855E1C48287B397700062BAA /* Debug */,
+				855E1C49287B397700062BAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 855E1C15287B397500062BAA /* Project object */;
+}
